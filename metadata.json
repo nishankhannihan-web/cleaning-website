@@ -1,0 +1,6 @@
+{
+  "name": "PureNest Cleaning",
+  "description": "Reliable residential cleaning in Austin, Texas tailored to your home and schedule. Get a free estimate today.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
