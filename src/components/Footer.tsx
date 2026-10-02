@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, MessageCircle, MapPin, CheckCircle2, Phone } from 'lucide-react';
+import { MessageCircle, MapPin, CheckCircle2, Phone } from 'lucide-react';
 import { BUSINESS_INFO, SERVICES_DATA } from '../data/cleaningData';
 import { getDirectWhatsAppUrl } from '../utils/whatsapp';
 
@@ -12,12 +12,12 @@ export const Footer: React.FC = () => {
           
           {/* Brand & Positioning */}
           <div className="lg:col-span-2 space-y-4">
-            <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-xl bg-teal-700 flex items-center justify-center text-white">
-                <Sparkles className="w-5 h-5" />
-              </div>
-              <span className="text-xl font-bold text-white tracking-tight">
+            <div className="space-y-0.5">
+              <span className="text-xl font-bold text-white tracking-tight block">
                 {BUSINESS_INFO.name}
+              </span>
+              <span className="text-xs font-semibold text-teal-400 tracking-wider uppercase leading-none block">
+                {BUSINESS_INFO.serviceType}
               </span>
             </div>
 

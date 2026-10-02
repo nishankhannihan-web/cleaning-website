@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, Eye } from 'lucide-react';
+import { Eye } from 'lucide-react';
 import { GALLERY_IMAGES } from '../data/cleaningData';
 
 export const ServiceShowcase: React.FC = () => {
@@ -43,18 +43,13 @@ export const ServiceShowcase: React.FC = () => {
                 </div>
               </div>
               
-              <div className="p-5 flex items-center justify-between border-t border-slate-100">
-                <div>
-                  <h3 className="text-base font-bold text-slate-900">
-                    {item.title}
-                  </h3>
-                  <p className="text-xs text-slate-500 mt-0.5">
-                    Representative residential space imagery
-                  </p>
-                </div>
-                <div className="p-2 rounded-xl bg-slate-50 text-teal-700">
-                  <Sparkles className="w-4 h-4" aria-hidden="true" />
-                </div>
+              <div className="p-5 border-t border-slate-100">
+                <h3 className="text-base font-bold text-slate-900">
+                  {item.title}
+                </h3>
+                <p className="text-xs text-slate-500 mt-0.5">
+                  Representative residential space imagery
+                </p>
               </div>
             </div>
           ))}

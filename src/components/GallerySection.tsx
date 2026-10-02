@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Sparkles, Images, X } from 'lucide-react';
+import { Images, X } from 'lucide-react';
 import { GALLERY_IMAGES } from '../data/cleaningData';
 
 export const GallerySection: React.FC = () => {

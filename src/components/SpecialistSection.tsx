@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, Sparkles, Droplets, Calendar, ShieldCheck, HeartHandshake, Layers } from 'lucide-react';
+import { Home, Droplets, Calendar, ShieldCheck, HeartHandshake, Layers } from 'lucide-react';
 import { BUSINESS_INFO } from '../data/cleaningData';
 
 export const SpecialistSection: React.FC = () => {
@@ -48,8 +48,7 @@ export const SpecialistSection: React.FC = () => {
         
         {/* Section Header */}
         <div className="max-w-3xl mb-16 space-y-4">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-100 border border-slate-200 text-slate-800 text-xs font-semibold uppercase tracking-wider">
-            <Sparkles className="w-3.5 h-3.5 text-teal-600" aria-hidden="true" />
+          <div className="inline-flex items-center px-3.5 py-1.5 rounded-full bg-slate-100 border border-slate-200 text-slate-800 text-xs font-semibold uppercase tracking-wider">
             <span>Residential Cleaning Specialist</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">

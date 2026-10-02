@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageSquarePlus, CalendarCheck2, Sparkles, CheckCircle2, ArrowRight } from 'lucide-react';
+import { MessageSquarePlus, CalendarCheck2, Home, CheckCircle2, ArrowRight } from 'lucide-react';
 import { BUSINESS_INFO } from '../data/cleaningData';
 
 export const HowItWorks: React.FC = () => {
@@ -22,7 +22,7 @@ export const HowItWorks: React.FC = () => {
     },
     {
       number: '03',
-      icon: Sparkles,
+      icon: Home,
       title: 'Enjoy a Fresh, Clean Home',
       description:
         'Our local residential cleaning team arrives prepared with eco-friendly supplies to deliver thorough care backed by our satisfaction guarantee.',

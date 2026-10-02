@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Check, Sparkles, Clock, Repeat } from 'lucide-react';
+import { ArrowRight, Check, Clock, Repeat } from 'lucide-react';
 import { SERVICES_DATA } from '../data/cleaningData';
 
 interface ServicesSectionProps {
@@ -13,8 +13,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-14 space-y-4">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-teal-50 border border-teal-200 text-teal-800 text-xs font-semibold uppercase tracking-wider">
-            <Sparkles className="w-3.5 h-3.5 text-teal-600" aria-hidden="true" />
+          <div className="inline-flex items-center px-3.5 py-1.5 rounded-full bg-teal-50 border border-teal-200 text-teal-800 text-xs font-semibold uppercase tracking-wider">
             <span>Residential Cleaning Services</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">

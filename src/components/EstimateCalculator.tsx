@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {
-  Sparkles,
   MessageCircle,
   Home,
   CheckCircle2,
@@ -103,8 +102,7 @@ export const EstimateCalculator: React.FC<EstimateCalculatorProps> = ({ initialS
         
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-12 space-y-4">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-teal-950/80 border border-teal-800/60 text-teal-300 text-xs font-semibold uppercase tracking-wider">
-            <Sparkles className="w-3.5 h-3.5 text-teal-400" aria-hidden="true" />
+          <div className="inline-flex items-center px-3.5 py-1.5 rounded-full bg-teal-950/80 border border-teal-800/60 text-teal-300 text-xs font-semibold uppercase tracking-wider">
             <span>Guided Estimate Request</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">

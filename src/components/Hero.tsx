@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, MessageCircle, MapPin, Sparkles, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, MessageCircle, MapPin, CheckCircle2 } from 'lucide-react';
 import { BUSINESS_INFO } from '../data/cleaningData';
 import { getDirectWhatsAppUrl } from '../utils/whatsapp';
 import heroImage from '../assets/media/pexels-tima-miroshnichenko-6195103.jpg';
@@ -60,9 +60,8 @@ export const Hero: React.FC = () => {
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-3">
               <a
                 href="#estimate"
-                className="inline-flex items-center justify-center gap-3 px-6 py-4 rounded-xl bg-teal-700 hover:bg-teal-800 text-white font-semibold text-base shadow-sm hover:shadow-md transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 text-center"
+                className="inline-flex items-center justify-center gap-2.5 px-6 py-4 rounded-xl bg-teal-700 hover:bg-teal-800 text-white font-semibold text-base shadow-sm hover:shadow-md transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 text-center"
               >
-                <Sparkles className="w-5 h-5 text-teal-200" aria-hidden="true" />
                 <span>{BUSINESS_INFO.primaryCta}</span>
                 <ArrowRight className="w-4 h-4" aria-hidden="true" />
               </a>

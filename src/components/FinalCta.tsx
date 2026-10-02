@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, MessageCircle, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { MessageCircle, ArrowRight, CheckCircle2 } from 'lucide-react';
 import { BUSINESS_INFO } from '../data/cleaningData';
 import { getDirectWhatsAppUrl } from '../utils/whatsapp';
 
@@ -10,8 +10,7 @@ export const FinalCta: React.FC = () => {
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center space-y-8">
         
-        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-teal-950 border border-teal-800 text-teal-300 text-xs font-semibold uppercase tracking-wider">
-          <Sparkles className="w-3.5 h-3.5 text-teal-400" aria-hidden="true" />
+        <div className="inline-flex items-center px-3.5 py-1.5 rounded-full bg-teal-950 border border-teal-800 text-teal-300 text-xs font-semibold uppercase tracking-wider">
           <span>PureNest Cleaning · {BUSINESS_INFO.serviceArea}</span>
         </div>
 
